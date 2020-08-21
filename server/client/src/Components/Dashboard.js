@@ -299,7 +299,7 @@ class Dashboard extends React.Component {
       .then((res) => {
         if (res === "error") {
         } else if (res === "follow deleted") {
-          alert("Follow Deleted!");
+          alert("Follow Deleted");
         }
       })
       .catch((error) => console.log(error));
