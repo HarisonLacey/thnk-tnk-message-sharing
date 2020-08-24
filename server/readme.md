@@ -132,7 +132,7 @@ This application is available to anyone who feels like sharing messages on a sim
 
 ## Application Security
 
-All Sensitive information in stored in a .env file not accessible via GitHub or Heroku.
+All Sensitive information is stored in a .env file not accessible via GitHub or Heroku.
 
 Information stored in this file includes:
 
