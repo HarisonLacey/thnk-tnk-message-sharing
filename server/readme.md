@@ -6,7 +6,7 @@ THNK TNK is a message sharing application that allows users to submit messages f
 
 [THNK TNK | Message Sharing](https://thnk-tnk.herokuapp.com/)
 
-## GitHub
+## GitHub Repository 
 
 [THNK TNK | Message Sharing](https://github.com/HarisonLacey/thnk-tnk-message-sharing)
 
@@ -21,7 +21,7 @@ THNK TNK is a message sharing application that allows users to submit messages f
 
 ## Note on the Database
 
-When the application is run locally it accesses the databse called: thnk-tnk-localhost-users
+When the application is run locally it accesses the database called: thnk-tnk-localhost-users
 
 The application deployed on Heroku accesses the database called: thnk-tnk-heroku-users
 
@@ -80,7 +80,7 @@ email: admin@admin.com
 password: admin
 ________________________
 
-You will be redirected to an admin page only accessible to you where you will be able to delete users.
+You will be redirected to an admin page only accessible to you. Here you will be able to delete users.
 
 ## System Architecture
 
@@ -103,7 +103,12 @@ create-react-app is used for React setup.
 
 This application is available to anyone who feels like sharing messages on a simple and intuitive platform.
 
-#### Functional Requirements 
+### User Stories
+
+- A user who wants to share messages and reach an audience
+- An admin who wants to delete a user from the application
+
+### Functional Requirements 
 
 - Local and third-party authentication
 - Admin access in order to delete users
@@ -116,7 +121,7 @@ This application is available to anyone who feels like sharing messages on a sim
 - Ability for users to follow a user or favourite a user message via the 
   message feed page
 
-#### Non-Functional Requirements 
+### Non-Functional Requirements 
 
 - Security for users by salting and hashing their passwords
 - Code is as modular and clean as possible in order to ensure 
