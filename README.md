@@ -1,6 +1,6 @@
 # THNK TNK | Message Sharing
 
-THNK TNK is a message sharing application that allows users to submit messages for other users to see, favourite and follow.
+THNK TNK is a message sharing application built from scratch that allows users to submit messages for other users to see, favourite and follow.
 
 ## Deployed Application
 
